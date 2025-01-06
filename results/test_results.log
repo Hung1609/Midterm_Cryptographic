@@ -1,0 +1,15 @@
+Test File: test_short_email.txt
+Result: PASS
+Original Size: 82 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_long_email.txt
+Result: PASS
+Original Size: 661 bytes
+Encrypted Size: 920 bytes
+
+Test File: test_unicode_email.txt
+Result: PASS
+Original Size: 232 bytes
+Encrypted Size: 344 bytes
+

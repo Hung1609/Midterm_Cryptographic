@@ -1,7 +1,14 @@
 from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad
 import base64
+import math
 
-def encrypt(input="emails/email_plain.txt",output="emails/email_encrypted.txt",key="keys/aes_key.key"):
+def email_size(data_size, block_size=16, base64_overhead=1.33):
+    padding = block_size - (data_size % block_size) if data_size % block_size != 0 else 0
+    encrypted_size = data_size + padding
+    return math.ceil(encrypted_size * base64_overhead)
+
+def encrypt(input="data/email_plain.txt",output="data/email_encrypted.txt",key="keys/aes_key.key"):
     with open(key,"rb") as k:
         key=k.read()
         
@@ -12,11 +19,16 @@ def encrypt(input="emails/email_plain.txt",output="emails/email_encrypted.txt",k
     ini_vector = cipher.iv
     
     # padding data
-    pad = 16 - len(plain_text) % 16
-    plain_text_padded = plain_text + chr(pad) * pad
+    plain_text_padded = pad(plain_text.encode("utf-8"), AES.block_size)
+    
+    #compute email size
+    estimated_email_size = email_size(len(plain_text_padded))
+    if estimated_email_size > 25 * 1024 * 1024: # = 25MB
+        print(f"The size of email is too large!!!")
+        return 
     
     # encrypt data
-    cipher_text = cipher.encrypt(plain_text_padded.encode("utf-8"))
+    cipher_text = cipher.encrypt(plain_text_padded)
     result = base64.b64encode(ini_vector + cipher_text).decode("utf-8")
     
     # store result
