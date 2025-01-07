@@ -1,15 +1,293 @@
 Test File: test_short_email.txt
-Result: PASS
+Result: FAIL
 Original Size: 82 bytes
 Encrypted Size: 152 bytes
 
 Test File: test_long_email.txt
-Result: PASS
+Result: FAIL
 Original Size: 661 bytes
-Encrypted Size: 920 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_unicode_email.txt
+Result: FAIL
+Original Size: 232 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Error: [Errno 2] No such file or directory: 'email_pdf.pdf'
+
+Test File: test_short_email.txt
+Result: FAIL
+Original Size: 82 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_long_email.txt
+Result: FAIL
+Original Size: 661 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_unicode_email.txt
+Result: FAIL
+Original Size: 232 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Test File: email_pdf.pdf
+Error: 'bytes' object has no attribute 'encode'
+
+Test File: test_short_email.txt
+Result: FAIL
+Original Size: 82 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_long_email.txt
+Result: FAIL
+Original Size: 661 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_unicode_email.txt
+Result: FAIL
+Original Size: 232 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Test File: email_pdf.pdf
+Error: 'bytes' object has no attribute 'encode'
+
+Test File: test_short_email.txt
+Result: FAIL
+Original Size: 82 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_long_email.txt
+Result: FAIL
+Original Size: 661 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_unicode_email.txt
+Result: FAIL
+Original Size: 232 bytes
+Encrypted Size: 364 bytes
+
+Test File: test_short_email.txt
+Result: FAIL
+Original Size: 82 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_long_email.txt
+Result: FAIL
+Original Size: 661 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_unicode_email.txt
+Result: FAIL
+Original Size: 232 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Test File: email_pdf.pdf
+Error: 'bytes' object has no attribute 'encode'
+
+Test File: test_long_email.txt
+Result: FAIL
+Original Size: 661 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_long_email.txt
+Result: FAIL
+Original Size: 661 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_long_email.txt
+Result: FAIL
+Original Size: 661 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_long_email.txt
+Result: FAIL
+Original Size: 661 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_long_email.txt
+Result: FAIL
+Original Size: 687 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_short_email.txt
+Result: FAIL
+Original Size: 89 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_unicode_email.txt
+Result: FAIL
+Original Size: 242 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytes
+
+Test File: test_long_email.txt
+Result: FAIL
+Original Size: 687 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_short_email.txt
+Result: FAIL
+Original Size: 89 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_unicode_email.txt
+Result: FAIL
+Original Size: 242 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytes
+
+Test File: test_long_email.txt
+Result: FAIL
+Original Size: 687 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_short_email.txt
+Result: FAIL
+Original Size: 89 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_unicode_email.txt
+Result: FAIL
+Original Size: 242 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytes
+
+Test File: test_long_email.txt
+Result: PASS
+Original Size: 687 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_short_email.txt
+Result: PASS
+Original Size: 89 bytes
+Encrypted Size: 152 bytes
 
 Test File: test_unicode_email.txt
 Result: PASS
-Original Size: 232 bytes
-Encrypted Size: 344 bytes
+Original Size: 242 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytes
+
+Test File: test_long_email.txt
+Result: PASS
+Original Size: 687 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_short_email.txt
+Result: PASS
+Original Size: 89 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_unicode_email.txt
+Result: PASS
+Original Size: 242 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytes
+
+Test File: test_long_email.txt
+Result: PASS
+Original Size: 687 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_short_email.txt
+Result: PASS
+Original Size: 89 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_unicode_email.txt
+Result: PASS
+Original Size: 242 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytes
+
+Test File: test_long_email.txt
+Result: PASS
+Original Size: 687 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_short_email.txt
+Result: PASS
+Original Size: 89 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_unicode_email.txt
+Result: PASS
+Original Size: 242 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytes
+
+Test File: test_long_email.txt
+Result: PASS
+Original Size: 687 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_short_email.txt
+Result: PASS
+Original Size: 89 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_unicode_email.txt
+Result: PASS
+Original Size: 242 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytes
+
+Test File: test_long_email.txt
+Result: PASS
+Original Size: 687 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_short_email.txt
+Result: PASS
+Original Size: 89 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_unicode_email.txt
+Result: PASS
+Original Size: 242 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytes
 
