@@ -289,5 +289,53 @@ Encrypted Size: 364 bytes
 Test File: email_pdf.pdf
 Result: PASS
 Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytesTest File: test_long_email.txt
+Result: PASS
+Original Size: 687 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_short_email.txt
+Result: PASS
+Original Size: 89 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_unicode_email.txt
+Result: PASS
+Original Size: 242 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytes
+
+Test File: pdf_over_25MB.pdf
+Result: FAIL
+Original Size: 36612157 bytes
+Encrypted Size: 2056300 bytes
+
+Test File: test_long_email.txt
+Result: PASS
+Original Size: 687 bytes
+Encrypted Size: 940 bytes
+
+Test File: test_short_email.txt
+Result: PASS
+Original Size: 89 bytes
+Encrypted Size: 152 bytes
+
+Test File: test_unicode_email.txt
+Result: PASS
+Original Size: 242 bytes
+Encrypted Size: 364 bytes
+
+Test File: email_pdf.pdf
+Result: PASS
+Original Size: 1542192 bytes
+Encrypted Size: 2056300 bytes
+
+Test File: pdf_over_25MB.pdf
+Result: FAIL
+Original Size: 36612157 bytes
 Encrypted Size: 2056300 bytes
 

@@ -44,7 +44,8 @@ if __name__ == "__main__":
         "tests/test_long_email.txt",
         "tests/test_short_email.txt",
         "tests/test_unicode_email.txt",
-        "tests/email_pdf.pdf"
+        "tests/email_pdf.pdf",
+        "tests/pdf_over_25MB.pdf"
     ]
 
     for test_case in test_cases:
